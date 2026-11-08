@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n, x;
+    int soma = 0;
+    cin >> n;
+    while(n--){
+        cin >> x;
+        soma += x;
+    }
+    cout << soma;
+     
+    return 0;
+}

@@ -1,0 +1,38 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int n, x;
+    int positivos = 0;
+    cin >> n;
+    while(n--){
+        cin >> x;
+        if(x % 2 == 0){
+            positivos++;
+        }
+    }
+    cout << positivos;
+     
+    return 0;
+}
+
+    cin.tie(NULL);
+    int n, x;
+    int positivos = 0;
+    cin >> n;
+    while(n--){
+        cin >> x;
+        if(x % 2 == 0){
+            positivos++;
+        }
+    }
+    cout << positivos;
+     
+    return 0;
+}

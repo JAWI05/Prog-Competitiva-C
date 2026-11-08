@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int idade;
+    cin >> idade;
+    if(idade > 60){
+        cout << "Idoso(a)";
+    } else if(idade >= 18){
+        cout << "Maior de idade";
+    } else{
+        cout << "Menor de idade";
+    }
+     
+    return 0;
+}

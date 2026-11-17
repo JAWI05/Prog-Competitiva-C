@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int n;
+    cin >> n;
+    vector<pair<int, string>> alunos;
+
+    for(int i=0; i<n; i++){
+        int idade;
+        string nome;
+        cin >> idade >> nome;
+        alunos.push_back({idade, nome});
+    }
+
+    sort(alunos.begin(), alunos.end());
+
+   for(int i = 0; i < n; i++){
+    cout << alunos[i].first << " "
+         << alunos[i].second << '\n';
+   }
+    
+    return 0;
+}

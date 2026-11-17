@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int n;
+    cin >> n;
+
+    int menor = INT_MAX;
+    int maior = INT_MIN;
+
+    for(int i=0; i<n; i++){
+        int x;
+        cin >> x;
+
+        menor = min(menor, x);
+        maior = max(maior, x);
+    }
+
+    cout << '\n' << menor << '\n' << maior;
+    
+    return 0;
+}
